@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:antelopeebony/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:antelopeebony/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:antelopeebony/prow:hmacToken
+segmentWriteKey: vault:antelopeebony:segmentWriteKey
